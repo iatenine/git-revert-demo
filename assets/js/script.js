@@ -27,3 +27,11 @@ $(function () {
     source: availableTags,
   });
 });
+
+// Datepicker widget
+$(function () {
+  $("#datepicker").datepicker({
+    changeMonth: true,
+    changeYear: true,
+  });
+});
