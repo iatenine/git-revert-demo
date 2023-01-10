@@ -35,3 +35,9 @@ $(function () {
     changeYear: true,
   });
 });
+
+$(function () {
+  $("#skills-list").sortable({
+    placeholder: "ui-state-highlight",
+  });
+});
